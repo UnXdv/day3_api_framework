@@ -1,0 +1,145 @@
+2026-10-12 17:39:34,418 [INFO] 请求POSThttps://jsonplaceholder.typicode.com/posts | params=None | json={'title': 'foo', 'body': 'bar', 'userId': 1}
+2026-10-12 17:39:35,486 [INFO] 响应201 | body={
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2026-10-12 17:39:35,489 [INFO] 请求DELETEhttps://jsonplaceholder.typicode.com/posts/1 | params=None | json=None
+2026-10-12 17:39:35,780 [INFO] 响应200 | body={}
+2026-10-12 17:39:35,784 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/users/1 | params=None | json=None
+2026-10-12 17:39:36,466 [INFO] 响应200 | body={
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-10-12 17:39:36,467 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/posts | params={'userId': 1} | json=None
+2026-10-12 17:39:36,651 [INFO] 响应200 | body=[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate p
+2026-10-12 17:41:35,961 [INFO] 请求POSThttps://jsonplaceholder.typicode.com/posts | params=None | json={'title': 'foo', 'body': 'bar', 'userId': 1}
+2026-10-12 17:41:36,820 [INFO] 响应201 | body={
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2026-10-12 17:41:36,823 [INFO] 请求DELETEhttps://jsonplaceholder.typicode.com/posts/1 | params=None | json=None
+2026-10-12 17:41:37,109 [INFO] 响应200 | body={}
+2026-10-12 17:41:37,112 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/users/1 | params=None | json=None
+2026-10-12 17:41:37,809 [INFO] 响应200 | body={
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-10-12 17:41:37,809 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/posts | params={'userId': 1} | json=None
+2026-10-12 17:41:37,994 [INFO] 响应200 | body=[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate p
+2026-10-12 17:41:50,806 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/posts | params=None | json=None
+2026-10-12 17:41:51,506 [INFO] 响应200 | body=[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate p
+2026-10-12 17:41:51,510 [INFO] 请求POSThttps://jsonplaceholder.typicode.com/posts | params=None | json={'title': 'foo', 'body': 'bar', 'userId': 1}
+2026-10-12 17:41:51,916 [INFO] 响应201 | body={
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2026-10-12 17:41:51,920 [INFO] 请求DELETEhttps://jsonplaceholder.typicode.com/posts/1 | params=None | json=None
+2026-10-12 17:41:52,181 [INFO] 响应200 | body={}
+2026-10-12 17:41:52,185 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/users/1 | params=None | json=None
+2026-10-12 17:41:52,875 [INFO] 响应200 | body={
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-marke
+2026-10-12 17:41:52,875 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/posts | params={'userId': 1} | json=None
+2026-10-12 17:41:53,076 [INFO] 响应200 | body=[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate p
