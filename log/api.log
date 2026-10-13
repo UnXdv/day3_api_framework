@@ -143,3 +143,48 @@
     "id": 2,
     "title": "qui est esse",
     "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate p
+2026-10-13 19:24:57,350 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/posts/1 | params=None | json=None
+2026-10-13 19:25:08,757 [INFO] 响应200 | body={
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-10-13 19:25:08,761 [INFO] 请求POSThttps://jsonplaceholder.typicode.com/posts | params=None | json={'title': 'foo', 'body': 'bar', 'userId': 1, 'postId': '1'}
+2026-10-13 19:25:09,271 [INFO] 响应201 | body={
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "postId": "1",
+  "id": 101
+}
+2026-10-13 19:25:58,025 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/posts/1 | params=None | json=None
+2026-10-13 19:25:59,206 [INFO] 响应200 | body={
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-10-13 19:25:59,211 [INFO] 请求POSThttps://jsonplaceholder.typicode.com/posts | params=None | json={'title': 'foo', 'body': 'bar', 'userId': 1, 'postId': '1'}
+2026-10-13 19:25:59,674 [INFO] 响应201 | body={
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "postId": "1",
+  "id": 101
+}
+2026-10-13 19:26:34,056 [INFO] 请求GEThttps://jsonplaceholder.typicode.com/posts/1 | params=None | json=None
+2026-10-13 19:26:35,058 [INFO] 响应200 | body={
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2026-10-13 19:26:35,062 [INFO] 请求POSThttps://jsonplaceholder.typicode.com/posts | params=None | json={'title': 'foo', 'body': 'bar', 'userId': 1, 'postId': 1}
+2026-10-13 19:26:35,424 [INFO] 响应201 | body={
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "postId": 1,
+  "id": 101
+}

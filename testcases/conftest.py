@@ -2,6 +2,7 @@
 import pytest
 from api.user_api import UserApi
 from api.post_api import PostApi
+from api.comment_api import CommentApi
 
 @pytest.fixture(scope = "session")
 def user_api():
@@ -10,3 +11,7 @@ def user_api():
 @pytest.fixture(scope = "session")
 def post_api():
     return PostApi()
+
+@pytest.fixture(scope = "session")
+def comment_api():
+    return CommentApi()
